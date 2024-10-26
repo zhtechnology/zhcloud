@@ -1,39 +1,41 @@
 # zhcloud
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+
+Zhcloud辉耀监控平台基于微服务springboot架构开发，用户可以轻松实现对服务器、应用程序、网络设备等关键资源的全面监控。平台支持自定义监控指标和告警规则，确保用户能够及时发现并处理潜在问题，有效保障业务的稳定运行。
+
+此外，Zhcloud辉耀监控平台还提供了强大的数据分析和可视化功能，帮助用户深入理解系统性能和行为模式。用户可以通过直观的图表和报告，快速识别系统瓶颈和异常，为优化系统性能提供有力支持。
+
+总之，Zhcloud辉耀监控平台是一款功能强大、易于使用的运维监控工具，能够帮助用户实现对IT基础设施的全面监控和优化，提升运维效率，保障业务连续性。
+
+核心采集指标包括：服务器、容器Docker、k8s、主流数据库、主流中间件、应用健康度等。
 
 #### 软件架构
-软件架构说明
-111222fffssss
+
+Java:Spring boot、Jdk8
+
+数据库：MySQL 8.*
+
+Prometheus：Prometheus 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Docker安装：
+2. K8s安装：
 
-#### 使用说明
+#### 功能说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 中屏首页：
+2. 大屏看板：
+3. 运行监控：
+4. 指标查询：
+5. 告警中心：
+6. 资产管理：
+7. 采集任务：
+8. 指标管理：
+9. 系统管理
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. Fork 本仓库
+2.
