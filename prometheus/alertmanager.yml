@@ -1,0 +1,18 @@
+global:
+  resolve_timeout: 1m
+
+route:
+  receiver: 'webhook-all-alerts'
+  # 其他路由配置，如group_by, group_wait等，可根据需要调整
+
+receivers:
+  - name: 'webhook-all-alerts'
+    webhook_configs:
+      - url: 'http://192.168.50.159/modules/alert/webhook/'
+        send_resolved: true  # 当告警解决时，也发送通知
+        # 可选的HTTP配置，如认证信息等（如果需要）
+        # http_config:
+        #   # ...
+
+        # 默认情况下，Alertmanager会发送一个包含告警详细信息的JSON对象
+        # 无需在此处定义template，除非你需要自定义JSON格式

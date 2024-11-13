@@ -1,0 +1,33 @@
+groups:
+  - name: memory_usage_alerts
+    rules:
+      - alert: HighMemoryUsage5
+        expr: |
+          100 * (1 - (node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes) > 30
+        for: 3m
+        labels:
+          severity: low
+          value: "(current value: {{ humanize $value }})"
+        annotations:
+          summary: "High memory usage on {{ $labels.instance }}"
+
+      - alert: HighMemoryUsage5
+        expr: |
+          100 * (1 - (node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes) > 40
+        for: 3m
+        labels:
+          severity: high
+          value: "(current value: {{ humanize $value }})"
+        annotations:
+          summary: "High memory usage on {{ $labels.instance }}"
+          description:  "(current value: {{ humanize $value }})"
+      - alert: HighMemoryUsage5
+        expr: |
+          100 * (1 - (node_memory_MemFree_bytes + node_memory_Buffers_bytes + node_memory_Cached_bytes) / node_memory_MemTotal_bytes) > 50
+        for: 3m
+        labels:
+          severity: emergency
+          value: "(current value: {{ humanize $value }})"
+        annotations:
+          summary: "High memory usage on {{ $labels.instance }}"
+          description:  "(current value: {{ humanize $value }})"

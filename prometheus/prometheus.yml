@@ -1,0 +1,81 @@
+# my global config
+global:
+  scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+            - '10.211.55.33:32614'
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  - '/opt/zhtec/prom/conf/rules/*.yml'
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: "prometheus"
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  #动态exporter配置
+  - job_name: 'file-services'
+    file_sd_configs:
+      - files:
+          - '/opt/zhtec/prom/conf/targets/*.json'  # 指定包含目标信息的 JSON 文件路径
+
+  #动态http(s)配置
+  - job_name: 'http_get'
+    metrics_path: /probe
+    params:
+      module: [http_get_2xx]  # 指定GET方法的模块
+    file_sd_configs:
+      - files:
+          - '/opt/zhtec/prom/conf/http_get/*.json'  # 服务发现文件路径
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: 10.211.55.33:32422  # Blackbox Exporter的地址
+
+  - job_name: 'http_post'
+    metrics_path: /probe
+    params:
+      module: [http_post_2xx]  # 指定POST方法的模块
+    file_sd_configs:
+      - files:
+          - '/opt/zhtec/prom/conf/http_post/*.json'  # 服务发现文件路径
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: 10.211.55.33:32422  # Blackbox Exporter的地址
+
+  - job_name: 'http_put'
+    metrics_path: /probe
+    params:
+      module: [http_put_2xx]  # 指定PUT方法的模块
+    file_sd_configs:
+      - files:
+          - '/opt/zhtec/prom/conf/http_put/*.json'  # 服务发现文件路径
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: 10.211.55.33:32422  # Blackbox Exporter的地址
