@@ -1,0 +1,10 @@
+[{
+  "labels": {
+    "bm": "macbook-local-mysql",
+    "type": "Database",
+    "jobNameEn": "local-macbook-mysql-exporter"
+  },
+  "targets": [
+    "10.211.55.33:30528"
+  ]
+}]

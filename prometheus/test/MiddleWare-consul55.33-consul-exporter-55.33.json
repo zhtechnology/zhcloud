@@ -1,0 +1,10 @@
+[{
+  "labels": {
+    "bm": "consul55.33",
+    "type": "MiddleWare",
+    "jobNameEn": "consul-exporter-55.33"
+  },
+  "targets": [
+    "10.211.55.33:32421"
+  ]
+}]

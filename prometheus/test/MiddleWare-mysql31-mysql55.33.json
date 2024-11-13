@@ -1,0 +1,10 @@
+[{
+  "labels": {
+    "bm": "mysql31",
+    "type": "MiddleWare",
+    "jobNameEn": "mysql55.33"
+  },
+  "targets": [
+    ":null"
+  ]
+}]

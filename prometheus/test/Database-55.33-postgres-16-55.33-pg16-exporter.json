@@ -1,0 +1,10 @@
+[{
+  "labels": {
+    "bm": "55.33-postgres-16",
+    "type": "Database",
+    "jobNameEn": "55.33-pg16-exporter"
+  },
+  "targets": [
+    "10.211.55.33:30274"
+  ]
+}]

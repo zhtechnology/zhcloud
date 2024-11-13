@@ -1,0 +1,31 @@
+groups:
+- name: Database_mysql_global_status_threads_connected
+  rules:
+  - alert: mysql_global_status_threads_connected
+    expr: mysql_global_status_threads_connected{}>6000.0
+    for: 10s
+    labels:
+      severity: CRITICAL
+      value: '{{ $value }}'
+    annotations: {}
+  - alert: mysql_global_status_threads_connected
+    expr: mysql_global_status_threads_connected{}>4000.0
+    for: 10s
+    labels:
+      severity: HIGH
+      value: '{{ $value }}'
+    annotations: {}
+  - alert: mysql_global_status_threads_connected
+    expr: mysql_global_status_threads_connected{}>2000.0
+    for: 10s
+    labels:
+      severity: MEDIUM
+      value: '{{ $value }}'
+    annotations: {}
+  - alert: mysql_global_status_threads_connected
+    expr: mysql_global_status_threads_connected{}>1000.0
+    for: 10s
+    labels:
+      severity: LOW
+      value: '{{ $value }}'
+    annotations: {}

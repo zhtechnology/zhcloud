@@ -1,0 +1,31 @@
+groups:
+- name: Computer_node_disk_read_bytes_total
+  rules:
+  - alert: node_disk_read_bytes_total
+    expr: node_disk_read_bytes_total{}>20.0
+    for: 2s
+    labels:
+      severity: MEDIUM
+      value: '{{ $value }}'
+    annotations: {}
+  - alert: node_disk_read_bytes_total
+    expr: node_disk_read_bytes_total{}>20.0
+    for: 2s
+    labels:
+      severity: CRITICAL
+      value: '{{ $value }}'
+    annotations: {}
+  - alert: node_disk_read_bytes_total
+    expr: node_disk_read_bytes_total{}>2.0
+    for: 2s
+    labels:
+      severity: LOW
+      value: '{{ $value }}'
+    annotations: {}
+  - alert: node_disk_read_bytes_total
+    expr: node_disk_read_bytes_total{}>20.0
+    for: 2s
+    labels:
+      severity: HIGH
+      value: '{{ $value }}'
+    annotations: {}
