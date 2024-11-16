@@ -18,7 +18,7 @@ docker run -d \
 ```
 
 注意：1）/本地路径/conf/:/opt/zhtec/prom/conf/这个映射路径要和agent的写入路径保持一致，建议不要修改。
-2）[prometheus.yml](prometheus/prometheus.yml)文件配置信息。
+2）[prometheus.yml](../prometheus/prometheus.yml)文件配置信息。
 
 ## Alertmanager安装
 
@@ -32,7 +32,7 @@ docker run -d --name alertmanager \
 ```
 
 注意：1）config.yml需要修改webhook地址为zhcloud平台地址。
-2）[alertmanager.yml](prometheus/config.yml)文件配置信息。
+2）[alertmanager.yml](../prometheus/config.yml)文件配置信息。
 
 ## MySQL安装
 

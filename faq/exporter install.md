@@ -46,7 +46,7 @@ modules:
     prober: icmp
 ```
 
-## BlackBox-exporter安装
+## Node-exporter安装
 
 ### 容器安装
 
