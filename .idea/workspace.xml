@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c0c4568-4429-4fc4-9f1a-27dde7bb4783" name="更改" comment="增加安装说明">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="8c0c4568-4429-4fc4-9f1a-27dde7bb4783" name="更改" comment="增加特色说明。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +71,7 @@
       <workItem from="1729944524831" duration="13000" />
       <workItem from="1729949772086" duration="11460000" />
       <workItem from="1730121925427" duration="2174000" />
-      <workItem from="1731488116683" duration="14556000" />
+      <workItem from="1731488116683" duration="14979000" />
     </task>
     <task id="LOCAL-00001" summary="chushihua">
       <option name="closed" value="true" />
@@ -125,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731722344509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加说明文件。">
+      <option name="closed" value="true" />
+      <created>1731723789179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731723789179</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加特色说明。">
+      <option name="closed" value="true" />
+      <created>1731724177801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731724177801</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +147,8 @@
     <MESSAGE value="chushihua" />
     <MESSAGE value="增加说明文件" />
     <MESSAGE value="增加安装说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加安装说明" />
+    <MESSAGE value="增加说明文件。" />
+    <MESSAGE value="增加特色说明。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加特色说明。" />
   </component>
 </project>
