@@ -8,7 +8,7 @@ route:
 receivers:
   - name: 'webhook-all-alerts'
     webhook_configs:
-      - url: 'http://192.168.50.159/modules/alert/webhook/'
+      - url: 'http://zhcloud的ip和端口/modules/alert/webhook/'
         send_resolved: true  # 当告警解决时，也发送通知
         # 可选的HTTP配置，如认证信息等（如果需要）
         # http_config:

@@ -5,39 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0c4568-4429-4fc4-9f1a-27dde7bb4783" name="更改" comment="增加说明文件">
-      <change afterPath="$PROJECT_DIR$/prometheus/alertmanager.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prometheus/test/memory_alerts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/release.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq/exporter install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq/faq.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.en.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prometheus/alertmanager.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +79,7 @@
       <workItem from="1729944524831" duration="13000" />
       <workItem from="1729949772086" duration="11460000" />
       <workItem from="1730121925427" duration="2174000" />
-      <workItem from="1731488116683" duration="4522000" />
+      <workItem from="1731488116683" duration="13027000" />
     </task>
     <task id="LOCAL-00001" summary="chushihua">
       <option name="closed" value="true" />
@@ -131,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729946718384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加说明文件">
+      <option name="closed" value="true" />
+      <created>1731492984521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731492984521</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加说明文件">
+      <option name="closed" value="true" />
+      <created>1731495464395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731495464395</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

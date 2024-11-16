@@ -20,33 +20,7 @@ Zhcloud辉耀监控平台基于微服务springboot架构开发，用户可以轻
 
 ### 安装教程
 
-1. ##### Docker安装：
-
-   prometheus安装
-
-
-   ```bash
-   docker run -d \
-           -p 9090:9090 \
-           --name prometheus \
-           -v /Volumes/D/zhcloud/samba_data/prom-local/data/:/opt/bitnami/prometheus/data/ \
-           -v /Volumes/D/zhcloud/samba_data/prom-local/conf/:/opt/zhtec/prom/conf/ \
-           docker.hub.cn.com/bitnami/prometheus:2.54.0 \
-           --config.file=/opt/zhtec/prom/conf/prometheus.yml \
-           --web.enable-lifecycle
-   ```
-
-   alertmanager安装
-
-   ```bash
-   docker run -d --name alertmanager \
-           -p 9093:9093 \
-           -v /Volumes/D/zhcloud/samba_data/am-local/conf/config.yml:/opt/bitnami/alertmanager/conf/config.yml \
-           docker.hub.cn.com/bitnami/alertmanager:0.27.0
-
-   ```
-
-   4. K8s安装：
+[安装步骤](doc/install.md)
 
 ### 功能说明
 
@@ -59,6 +33,8 @@ Zhcloud辉耀监控平台基于微服务springboot架构开发，用户可以轻
 7. 采集任务：通过自定义Agent实现采集任务下发至Prometheus，实现Exporter与运维对象关联。
 8. 指标管理：服务器、容器Docker、K8s、数据库、中间件、系统健康度等运行监控指标采集管理。
 9. 系统管理：用户管理、角色管理、字典管理、菜单管理、组织管理等。
+
+### 特色功能
 
 ### 平台截图
 
@@ -81,11 +57,12 @@ Zhcloud辉耀监控平台基于微服务springboot架构开发，用户可以轻
 ![IMG_20220611_212137.jpg](screenshot/img_20.png)
 ![IMG_20220611_212137.jpg](screenshot/img_24.png)
 ![IMG_20220611_212137.jpg](screenshot/img_25.png)
-### 常用导出器
 
+### 常用导出器
 
 ### 常见问题
 
+### 联系方式
 
 ### 特别鸣谢
 
