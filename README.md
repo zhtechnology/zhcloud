@@ -52,19 +52,19 @@ Zhcloud辉耀可观测监控平台基于微服务springboot架构开发，用户
 
 ![IMG_20220611_212137.jpg](screenshot/1.png)
 
-![IMG_20220611_212137.jpg](screenshot/img_2.png)
+![IMG_20220611_212137.jpg](screenshot/2.png)
 
-![IMG_20220611_212137.jpg](screenshot/img_5.png)
+![IMG_20220611_212137.jpg](screenshot/5.png)
 
-![IMG_20220611_212137.jpg](screenshot/img_7.png)
+![IMG_20220611_212137.jpg](screenshot/7.png)
 
-![IMG_20220611_212137.jpg](screenshot/img_9.png)
+![IMG_20220611_212137.jpg](screenshot/9.png)
 
-![IMG_20220611_212137.jpg](screenshot/img_14.png)
+![IMG_20220611_212137.jpg](screenshot/14.png)
 
-![IMG_20220611_212137.jpg](screenshot/img_16.png)
+![IMG_20220611_212137.jpg](screenshot/16.png)
 
-![IMG_20220611_212137.jpg](screenshot/img_17.png)
+![IMG_20220611_212137.jpg](screenshot/17.png)
 
 ![IMG_20220611_212137.jpg](screenshot/img_20.png)
 ![IMG_20220611_212137.jpg](screenshot/img_24.png)
