@@ -10,13 +10,15 @@ Zhcloud辉耀可观测监控平台基于微服务springboot架构开发，用户
 
 核心采集指标包括：服务器、容器Docker、k8s、主流数据库、主流中间件、应用健康度等。
 
-### 技术路线
+### 技术路线及参数
 
 后端:Spring boot、Jdk8。
 
 数据库：MySQL 8.*、Prometheus。
 
 前端：hplus admin、thymeleaf。
+
+CPU：支持arm64、amd64。
 
 ### 安装教程
 
