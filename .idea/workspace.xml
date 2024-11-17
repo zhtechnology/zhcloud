@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c0c4568-4429-4fc4-9f1a-27dde7bb4783" name="更改" comment="更新cpu架构支持信息。">
+    <list default="true" id="8c0c4568-4429-4fc4-9f1a-27dde7bb4783" name="更改" comment="更新说明文件。">
+      <change afterPath="$PROJECT_DIR$/doc/agent-release.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/release.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/release.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/D/dev/zhcloud-public/zhcloud/agent&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Volumes/D/dev/zhcloud-public/zhcloud/doc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$/agent" />
       <recent name="$PROJECT_DIR$/sql" />
     </key>
@@ -86,7 +89,7 @@
       <workItem from="1729944524831" duration="13000" />
       <workItem from="1729949772086" duration="11460000" />
       <workItem from="1730121925427" duration="2174000" />
-      <workItem from="1731488116683" duration="22688000" />
+      <workItem from="1731488116683" duration="25534000" />
     </task>
     <task id="LOCAL-00001" summary="chushihua">
       <option name="closed" value="true" />
@@ -240,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731750373581</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="更新说明文件。">
+      <option name="closed" value="true" />
+      <created>1731751537138</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731751537138</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +266,7 @@
     <MESSAGE value="更新安装说明。" />
     <MESSAGE value="更新高清截图。" />
     <MESSAGE value="更新cpu架构支持信息。" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新cpu架构支持信息。" />
+    <MESSAGE value="更新说明文件。" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新说明文件。" />
   </component>
 </project>

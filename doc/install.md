@@ -61,7 +61,7 @@ docker run -d \
     --spring.datasource.druid.master.username="数据库用户名" \
     --spring.datasource.druid.master.password="数据库密码"
 ```
-
+注意：[版本更新见](release.md)
 ## Zhcloud-agent安装
 
 ### 容器安装
@@ -74,3 +74,4 @@ docker run -d \
     registry.cn-hangzhou.aliyuncs.com/zhtec/zhcloud-agent:v1.2.0
 ```
 注意：1）/本地路径/conf/:/opt/zhtec/prom/conf/这个映射路径要和Prometheus的写入路径保持一致，建议不要修改。
+2）[版本更新见](agent-release.md)
