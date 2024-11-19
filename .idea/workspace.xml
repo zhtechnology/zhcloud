@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0c4568-4429-4fc4-9f1a-27dde7bb4783" name="更改" comment="更新说明文件。">
-      <change afterPath="$PROJECT_DIR$/doc/agent-release.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/release.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/release.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <workItem from="1729944524831" duration="13000" />
       <workItem from="1729949772086" duration="11460000" />
       <workItem from="1730121925427" duration="2174000" />
-      <workItem from="1731488116683" duration="25534000" />
+      <workItem from="1731488116683" duration="27280000" />
     </task>
     <task id="LOCAL-00001" summary="chushihua">
       <option name="closed" value="true" />
@@ -251,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731751537138</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="更新说明文件。">
+      <option name="closed" value="true" />
+      <created>1731807282566</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731807282566</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
