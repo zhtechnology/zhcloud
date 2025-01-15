@@ -1,5 +1,24 @@
 Zhcloud 版本说明
 
+### 版本 V2.4.2
+
+1、优化Docker环境一键部署，包括数据库、应用、Prometheus等。
+2、统一各个模块的端口。
+3、SQL一键导出优化。
+4、其他功能优化。
+
+#### 镜像地址：
+
+docker pull 9102.zhtec.cc:6443/zhtec/zhcloud:V2.4.1
+docker pull registry.cn-hangzhou.aliyuncs.com/zhtec/zhcloud:V2.4.1
+
+docker pull 9102.zhtec.cc:6443/zhtec/agent:V1.2.14
+docker pull registry.cn-hangzhou.aliyuncs.com/zhtec/agent:V1.2.14
+
+#### 一键安装包：
+
+[zhcloud-v2.4.2](../downloads/zhcloud-v2.4.2.zip)
+
 ### 版本 V2.4.1
 
 1、增加Docker环境一键部署，包括数据库、应用、Prometheus等。
